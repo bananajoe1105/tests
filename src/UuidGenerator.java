@@ -6,6 +6,7 @@ public class UuidGenerator {
         UUID testid = UUID.randomUUID();
         String convert = testid.toString();
         System.out.print(convert);
+        System.out.print("Hello");
     }
 
 }
